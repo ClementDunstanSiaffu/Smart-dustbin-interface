@@ -142,7 +142,7 @@ import fetch from 'isomorphic-unfetch';
  }
 
  Home.getInitialProps = async()=>{
-   const response = await fetch('https://obscure-eyrie-17710.herokuapp.com/')
+   const response = await fetch('https://obscure-eyrie-17710.herokuapp.com/pata')
    const data = await response.json()
    return{data}
    console.log(data)
