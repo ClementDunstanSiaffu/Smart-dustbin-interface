@@ -1,0 +1,27 @@
+
+.outer-container{
+    margin:100px auto;
+}
+.inner-container{
+    margin:0px auto;
+}
+.textcontainer{
+ max-height: 80px;   
+}
+
+.location{
+    margin-top: -80px;
+    font-size: 20px;
+}
+.text-dust{
+    margin-left:150px;
+    margin-top:-50px;
+    font-size: 20px;
+}
+
+.progress-circle{
+    width:100px;
+    height: 100px;
+    margin-top: -70px;
+    margin-left: -30px;
+}
