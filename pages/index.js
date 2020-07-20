@@ -81,7 +81,7 @@ import Tab from '@material-ui/core/Tab';
              <Modal.Title>Add location</Modal.Title>
            </Modal.Header>
            <Modal.Body>
-             <form action = 'http://localhost:8080/pokea' method = 'POST' >
+             <form action = 'https://obscure-eyrie-17710.herokuapp.com/pokea' method = 'POST' >
                <input type = "text" placeholder = "add location" className = "add-input"
                maxlength="50" name = "location" autoComplete = "off" />
 
@@ -108,7 +108,7 @@ import Tab from '@material-ui/core/Tab';
              <Modal.Title>Remove location</Modal.Title>
            </Modal.Header>
            <Modal.Body>
-             <form  action = "http://localhost:8080/ondoa" method = "POST">
+             <form  action = "https://obscure-eyrie-17710.herokuapp.com/ondoa" method = "POST">
                <input type = "text" placeholder = "remove location" className = "add-input"
                maxlength="50" name = "location" autoComplete = "off" />
 
