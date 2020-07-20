@@ -1,4 +1,5 @@
 
+
 .outer-container{
     margin:100px auto;
 }
@@ -25,3 +26,74 @@
     margin-top: -70px;
     margin-left: -30px;
 }
+
+.button-container{
+    margin:80px 0px -50px 680px;
+
+}
+
+.butt{
+    width:200px;
+    height:50px;
+    border-radius: 25px;
+    margin-right: 10px;
+    background-color: lightblue;
+    border:none;
+    color:white;
+    font-weight: 800;
+}
+
+button.butt:focus{
+   outline: none;
+   background-color: blue;
+}
+
+.add-input{
+    width:100%;
+    height: 50px;
+    border-radius: 25px;
+    padding-left: 10px;
+    outline: none;
+    border: lightgrey solid 1px;
+}
+
+.add-location-butt-container{
+    margin: 20px 0px 0px 0px;
+    
+}
+
+.add-location-butt{
+    
+    width: 140px;
+    height:40px;
+    border-radius: 20px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    margin-left: 240px;
+    
+}
+
+.close-butt{
+    width: 70px;
+    height:40px;
+    border-radius: 20px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    margin-left: 390px;
+    margin-top: -41px;
+    position: absolute;
+    
+}
+
+button.add-location-butt:focus{
+    background-color: blue;
+    outline: none;
+}
+button.close-butt:focus{
+    background-color: blue;
+    outline: none;
+}
+
