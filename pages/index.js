@@ -32,7 +32,10 @@ import Tab from '@material-ui/core/Tab';
     console.log(take)
     const takeIt = data.filter((oneData)=>oneData.location === take)
     const okay =  takeIt.map((every)=>{return every.volume})
-    const volume = okay[0]
+    const index = okay.length -1
+    console.log(index)
+    const volume = okay[index]
+    console.log(volume)
     if(volume){
       return volume
     }else{
