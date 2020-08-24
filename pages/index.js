@@ -239,7 +239,7 @@ import Tab from '@material-ui/core/Tab';
              <span className="location">Location:{one.name}</span><br />
              <span><p className = "text-dust">
                Volume:<CircularProgressbar value = {takeValue(one.name)}
-               maxValue={240} text= {`${takeValue(one.name)}L`} styles={buildStyles({
+               maxValue={37} text= {`${takeValue(one.name)}L`} styles={buildStyles({
                rotation: 1,
                strokeLinecap: 'butt',
                textSize: '30px',
